@@ -1,80 +1,67 @@
 # 🔐 Secure Online Examination System
 
-## 📌 Project Overview
+An AI-Based Secure Online Examination System designed to conduct online examinations with face detection, exam monitoring, suspicious activity detection, and candidate performance analysis.
 
-The **Secure Online Examination System** is a web-based application designed to conduct online examinations securely while monitoring candidate activities using AI-based proctoring features.
+## 🚀 Features
 
-The system allows students to log in, attend online examinations, and view their results. It also monitors examination activities to identify suspicious behavior and generate warnings.
-
-## ✨ Features
-
-### 1. Student Login
-- Student login using name and password.
-- Simple and user-friendly interface.
-
-### 2. AI-Based Exam Monitoring
-- Face detection.
-- Multiple-person detection.
-- Camera monitoring.
-- Tab-switching detection.
-- Warning notifications during suspicious activities.
-
-### 3. Candidate Performance Analysis
-- Candidate performance percentage.
-- Monitoring-related activity indicators.
-- Candidate activity analysis.
-
-### 4. Online Examination
-- Multiple examination questions.
-- 10-mark examination.
-- Online answer submission.
-
-### 5. Automatic Result Generation
-- Automatic result calculation.
-- Display of examination results.
-- Candidate performance summary.
-
-### 6. Additional Features
-- 360-degree head movement detection (implementation to be verified).
-- Certificate generation after examination completion (implementation to be verified).
+- Face Detection
+- Multiple Person Detection
+- Tab Switching Detection
+- Camera Monitoring
+- 360-Degree Head Movement Detection
+- Warning Notifications
+- Candidate Performance Percentage
+- Automatic Result Generation
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python Flask
-- **Database:** SQLite
-- **Version Control:** Git and GitHub
+- Python
+- Flask
+- SQLite
+- HTML
+- CSS
+- JavaScript
 
-## ⚙️ System Workflow
+## 📌 Project Description
 
-1. Student opens the web application.
-2. Student enters login credentials.
-3. Examination instructions and rules are displayed.
-4. Camera monitoring starts.
-5. AI-based monitoring checks face presence and multiple-person activity.
-6. Tab-switching activities generate warnings.
-7. Student attends the examination questions.
-8. The system calculates the examination result automatically.
-9. Candidate performance information is displayed.
+The Secure Online Examination System aims to improve the security and reliability of online examinations.
 
-## 🎯 Project Objective
+The system monitors candidates during examinations using camera-based face detection and activity monitoring. It identifies suspicious activities and generates warnings while tracking candidate performance.
 
-The main objective of this project is to provide a secure and reliable online examination environment using AI-based monitoring techniques, reduce suspicious examination activities, and analyze candidate performance.
+## ⚙️ Installation and Setup
 
-## 🚀 Future Enhancements
+1. Clone the repository:
 
-- Advanced head movement analysis.
-- Improved AI-based suspicious activity detection.
-- Automated certificate generation.
-- Detailed examination analytics.
-- Admin dashboard for managing students and examinations.
+   ```bash
+   git clone https://github.com/kiranxdev/Secure-Online-Examination-System.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd Secure-Online-Examination-System
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the application:
+
+   ```bash
+   python app.py
+   ```
+
+5. Open the local URL displayed in your terminal.
 
 ## 👨‍💻 Developer
 
 **Kiran H Biradar**
 
-GitHub: https://github.com/kiranxdev
+- GitHub: https://github.com/kiranxdev
 
----
+## 🎯 Project Goal
 
-⭐ If you find this project interesting, feel free to explore the repository!
+To provide a secure, reliable, and intelligent online examination environment using AI-based monitoring techniques.
